@@ -11,4 +11,8 @@ describe('FizzBuzz', function() {
   it("Prints 'fizz' on a 3", function() {
     expect(game.fun(3)).toEqual('fizz');
   });
+
+  it("Prints 'buzz' on a 5", function() {
+    expect(game.fun(5)).toEqual("buzz");
+  });
 });
