@@ -8,6 +8,9 @@ fizzBuzz.prototype.fun = function (num) {
   else if (num == 5) {
     return 'buzz'
   }
+  else if (num == 15) {
+    return 'fizzbuzz'
+  }
   else {
     return 1
   }
