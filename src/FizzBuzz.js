@@ -12,6 +12,6 @@ fizzBuzz.prototype.fun = function (num) {
     return 'fizzbuzz'
   }
   else {
-    return 1
+    return num
   }
 };
