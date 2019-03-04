@@ -2,14 +2,14 @@ var fizzBuzz = function(){
 };
 
 fizzBuzz.prototype.fun = function (num) {
-  if (num == 3) {
-    return 'fizz'
+  if (num % 15 == 0) {
+    return 'fizzbuzz'
   }
-  else if (num == 5) {
+  else if (num % 5 == 0) {
     return 'buzz'
   }
-  else if (num == 15) {
-    return 'fizzbuzz'
+  else if (num % 3 == 0) {
+    return 'fizz'
   }
   else {
     return num

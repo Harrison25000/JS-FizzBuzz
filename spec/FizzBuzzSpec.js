@@ -23,4 +23,16 @@ describe('FizzBuzz', function() {
   it ("Print the number 2 on 2", function() {
     expect(game.fun(2)).toEqual(2);
   });
+
+  it ("Prints 'fizz' on a divisible of 3", function() {
+    expect(game.fun(9)).toEqual('fizz')
+  });
+
+  it ("Prints 'buzz' on a divisible of 5", function() {
+    expect(game.fun(20)).toEqual('buzz')
+  });
+
+  it ("Prints 'fizzbuzz' on a divisible of 15", function() {
+    expect(game.fun(30)).toEqual('fizzbuzz')
+  });
 });
